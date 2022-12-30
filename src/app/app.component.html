@@ -1,7 +1,7 @@
 <h1>Data [(binding]) | ngModel</h1>
 <h1>{{name}}</h1>
-<p>validacion: {{nameInput.valid}}</p>
 <input type="text" required #nameInput="ngModel" [(ngModel)]="name">
+<p>validacion: {{nameInput.valid}}</p>
 <hr>
 <h1>event (binding)</h1>
 <button (click)="btnSendEnable()">Toggle Button</button>
